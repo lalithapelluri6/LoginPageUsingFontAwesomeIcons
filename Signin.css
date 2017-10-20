@@ -1,0 +1,144 @@
+body{
+    font-family: "sans-serif";
+    border: 2px outset deepskyblue;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 450px;
+    padding: 50px;
+    border-top:hidden;
+
+}
+h1{
+    color: black;
+}
+p{
+    color: grey;
+}
+#name{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#email{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+#password{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+#createAccount{
+    background-color: coral;
+    color: white;
+}
+
+.button {
+
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 30px;
+    padding-left: 70px;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+}
+.button span {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    font-size:30px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid  rgba(0,0,0,0.15);
+    text-decoration: none;
+    padding-left: 10px;
+}
+.button.twitter {
+    background: skyblue;
+}
+#ti{
+    background-color: deepskyblue;
+}
+.button.facebook{
+    background: blue;
+}
+#fi{
+    background-color: darkblue;
+    padding-left: 15px;
+}
+.button.google{
+    background-color: red;
+}
+#gi{
+    background-color: darkred;
+}
+#twit{
+    float: left;
+}
+#face{
+    float: left;
+    margin-left: 20px;
+}
+#goog{
+    float: left;
+    margin-left: 20px;
+}
+.inside {
+    position:absolute;
+    text-indent:5px;
+    margin-top:2px;
+    color:lightgray;
+}
+
+#name {
+    text-indent:15px;
+}
+#email {
+    text-indent:20px;
+}
+#password {
+    text-indent:15px;
+}
+.button1.acc{
+    background-color: coral;
+    line-height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 40px;
+    padding-right: 70px;
+    padding-left: 30px;
+    position: relative;
+    color: white;
+}
+.button1 span{
+    background-color: darkred;
+    color: white;
+    position: absolute;
+    right: 0;
+    padding-left: 5px;
+    width: 50px;
+    font-size:30px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid  rgba(0,0,0,0.15);
+    text-decoration: none;
+
+}
